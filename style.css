@@ -1,0 +1,384 @@
+/* color stocks */
+:root {
+  --greenfromw3s: #4CAF50;
+  --matchboxcolorfromgetbootstrap: #7952b3;
+  --sienna: #a0522d;
+  --brown: #a52a2a;
+  --niceRed: #b2175b;
+  --indianred: #cd5c5c;
+  --mediumvioletred: #c71585;
+  --palevioletred: #db7093;
+  --hotpink: 	#ff69b4;
+  --darkgreen: #006400;
+  --forestgreen: 	#228b22;
+  --teal: #008080;
+  --chocolate : #d2691e;
+  --darkmagenta: #8b008b;
+  --dodgerblue: #1e90ff;
+  --royalblue: 	#4169e1;
+  --steelblue: 	#4682b4;
+  --mediumslateblue: #7b68ee;
+  --cornflowerblue : #6495ed;
+  --mediumorchid: #ba55d3;
+  --orchid: #da70d6;
+  --rebeccapurple: #663399;
+  --mediumpurple: 	#9370db;
+  --peru: #cd853f;
+  --goldenrod: #daa520;
+  --darksalmon: #e9967a;
+  --thistle: #d8bfd8;
+  --rosybrown: #bc8f8f;
+  --cornsilk : #fff8dc;
+  --tan: #D2B48C;
+  --saddlebrown: #8B4513;
+  --rosybrown: #BC8F8F;
+  --colorBrown: #e08b6c;
+  --ghostwhite: #F8F8FF;
+  --whitesmoke: #f5f5f5;
+  --floralwhite: #F8F8FF;
+  --gainsboro: #DCDCDC;
+  --lightgrey: #D3D3D3;
+  --white: #FFFFFF;
+  --black: #000000;
+  --DarkSlateGrey: #2F4F4F;
+  --dimgray: #696969;
+  --slategrey: #708090;
+  --gray: #808080;
+  --darkgrey: #a9a9a9;
+  --silver: #C0C0C0;
+  --seashell: #FFF5EE;
+  --transparentBlue: rgba(0,0,255,0.3);
+  --niceBlue: #3c1b75;
+}
+/* end of colors stock */
+
+body {
+  font-family: 'Oswald', sans-serif;
+  background: #fff;
+}
+.icon-top {
+  background: #2a9134;
+}
+.icon-top a {
+  color: #f1fffa;
+  font-size: 25px;
+  transition: color 1s ease-in-out 2s;
+}
+.icon-top a:hover {
+  color: #663399;
+}
+.icon-top h5 {
+  color: #663399;
+}
+/* navbar */
+.navbar {
+  background: #663399;
+  padding: 10px 20px;
+  transition: padding 2s ease;
+}
+.navbar-background {
+  padding: 2px 20px;
+}
+.navbar-brand {
+  color: #2a9134;
+  border: 3px solid #2a9134;
+  font-size: 20px;
+  transition: all 2s ease;
+}
+.navbar-brand:hover {
+  background: #2a9134;
+  color: #663399;
+}
+.bar1,
+.bar2,
+.bar3 {
+  width: 23px;
+  height: 3px;
+  margin: 5px;
+  background: #2a9134;
+  transition: all 0.5s ease;
+}
+.change .bar1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+.change .bar2 {
+  opacity: 0;
+}
+.change .bar3 {
+  transform: rotate(45deg) translate(-5px, -8px);
+}
+.nav-link {
+  color: #f1fffa;
+  font-size: 25px;
+  padding: 10px 20px !important;
+  border-radius: 5px;
+  transition: background 2s ease;
+}
+.nav-link:hover {
+  background: #2a9134;
+  color: #f1fffa;
+}
+.nav-active {
+  color: #f1fffa;
+  font-size: 25px;
+  padding: 10px 20px !important;
+  background: rgba(42, 145, 52, 0.6);
+}
+.search-btn {
+  background: #2a9134;
+  transition: all 1s ease;
+}
+.search-btn:hover {
+  color: #2a9134;
+  background: #191919;
+}
+.navbar-toggler {
+  border: 3px solid #2a9134;
+  padding: 3px;
+}
+/* slider */
+.item-1,
+.item-2,
+.item-3,
+.item-4 {
+  min-height: 60vh;
+  /* clip-path: polygon(0 0, 100% 0, 100% 85%, 0 95%); */
+}
+.no-padding {
+  padding: 0;
+}
+.item-1 {
+  background: linear-gradient(to right, rgba(42, 145, 52, 0.9),rgba(42, 145, 52, 0.5)) ,url("img/frontecrsideboardprist.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.item-2 {
+  background: linear-gradient(to right, rgba(42, 145, 52, 0.9),rgba(42, 145, 52, 0.5)) ,url("img/classroom.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.item-3 {
+  background: linear-gradient(to right, rgba(42, 145, 52, 0.9),rgba(42, 145, 52, 0.5)) ,url("img/enggfront.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.item-4 {
+  background: linear-gradient(to right, rgba(42, 145, 52, 0.9),rgba(42, 145, 52, 0.5)) ,url("img/computerlab.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.banner-btn {
+  color: #f1fffa;
+  border: 2px solid #f1fffa;
+  transition: all 1s ease;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+.banner-btn:hover {
+  color: #2a9134;
+  background: #f1fffa;
+  transform: translateY(-7px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.7);
+}
+
+/* title */
+.title h1 {
+  #663399;
+}
+.title h3 {
+  color: #5a5a5a;
+}
+.title-underline {
+  height: 5px;
+  width: 250px;
+  background: #2a9134;
+  margin: -28px auto 0 auto;
+}
+.title a {
+  color: #2a9134;
+  font-size: 30px;
+  padding: 0 10px;
+  display: inline-block;
+  background: #f1fffa;
+}
+/* footer */
+footer {
+  background: #8B4513;
+}
+.footer-icons a {
+  color: #2a9134;
+  font-size: 15px;
+  transition: color 1s ease;
+}
+.footer-icons a:hover {
+  color: #f1fffa;
+}
+footer h5 {
+  color: #f1fffa;
+}
+
+
+/* Important */
+
+/* marquee  */
+/* <marquee behavior="scroll" direction="up" scrollamount="1">just passion</marquee> */
+/* .height-80{
+  min-height: 100vh;
+}
+.about-picture{
+  background:url("images/eagle500x625.jpeg")center/cover no-repeat fixed;
+  /* background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; */
+} */
+
+/* <!-- justify-content-center is horizontal alignment, align-items-center is vertical alignment -->
+    <i class="fas fa-home fa-3x"></i>
+    <i class="fas fa-ad fa-3x"></i>
+    <i class="fas fa-address-book fa-3x"></i>
+    <i class="fas fa-address-card fa-3x"></i>
+    <i class="fas fa-adjust fa-3x"></i>
+    <i class="fas fa-airfreshner fa-3x"></i>
+    <i class="fas fa-align-justify fa-3x"></i>
+    <i class="fas fa-align-center fa-3x"></i>
+    <i class="fas fa-align-left fa-3x"></i>
+    <i class="fas fa-align-right fa-3x"></i>
+    <i class="fas fa-ambulance fa-3x"></i>
+    <i class="fas fa-anchor fa-3x"></i>
+    <i class="fas fa-angle-double-down fa-3x"></i>
+    <i class="fas fa-angle-double-left fa-3x"></i>
+    <i class="fas fa-angle-double-right fa-3x"></i>
+    <i class="fas fa-arrow-alt-circle-down fa-3x"></i>
+    <i class="fas fa-arrow-alt-circle-left fa-3x"></i>
+    <i class="fas fa-arrow-alt-circle-right fa-3x"></i>
+    <i class="fas fa-arrow-alt-circle-up fa-3x"></i>
+    <i class="fas fa-archway fa-3x"></i>
+    <i class="fas fa-archive fa-3x"></i>
+    <i class="fas fa-apple-alt fa-3x"></i>
+    <i class="fas fa-angry fa-5x text-success"></i>
+    <i class="fas fa-angle-up fa-5x"></i>
+    <i class="fas fa-angle-down fa-5x"></i>
+    <i class="fas fa-angle-right fa-5x"></i>
+    <i class="fas fa-angle-left fa-5x"></i>
+    <i class="fas fa-arrow-left fa-5x"></i>
+    <i class="fas fa-arrow-right fa-5x"></i>
+    <i class="fas fa-arrow-up fa-5x"></i>
+    <i class="fas fa-arrows-alt fa-5x"></i>
+    <i class="fas fa-arrows-alt-h fa-5x"></i>
+    <i class="fas fa-arrows-alt-v fa-5x"></i>
+    <i class="fas fa-atlas fa-5x bg-warning"></i>
+    <i class="fas fa-at fa-3x"></i>
+    <i class="fas fa-atom fa-3x"></i>
+    <i class="fas fa-award fa-3x"></i>
+    <i class="fas fa-audio-description fa-3x"></i>
+    <i class="fas fa-baby fa-3x"></i>
+    <i class="fas fa-baby-carriage fa-3x text-danger"></i>
+    <i class="fas fa-backspace fa-3x"></i>
+    <i class="fas fa-backward fa-3x"></i>
+    <i class="fas fa-bacon fa-3x"></i>
+    <i class="fas fa-balance-scale fa-3x"></i>
+    <i class="fas fa-balance-scale-left fa-3x"></i>
+    <i class="fas fa-balance-scale-right fa-3x"></i>
+    <i class="fas fa-ban fa-3x"></i>
+    <i class="fas fa-band-aid fa-3x"></i>
+    <i class="fas fa-barcode fa-3x"></i>
+    <i class="fas fa-bars fa-3x"></i>
+    <i class="fas fa-basball-ball fa-3x"></i>
+    <i class="fas fa-basketball-ball fa-3x"></i>
+    <i class="fas fa-bath fa-3x"></i>
+    <i class="fas fa-battery-empty fa-3x text-info"></i>
+    <i class="fas fa-battery-full fa-3x"></i>
+    <i class="fas fa-battery-half fa-3x"></i>
+    <i class="fas fa-battery-quarter fa-3x"></i>
+    <i class="fas fa-bed fa-3x"></i>
+    <i class="fas fa-battle-net fa-3x"></i>
+    <i class="fas fa-beer fa-3x"></i>
+    <i class="fas fa-bell fa-3x"></i>
+    <i class="fas fa-bell-slash fa-3x"></i>
+    <i class="fas fa-bluetooth-b fa-3x"></i>
+    <i class="fas fa-blog fa-3x"></i>
+    <i class="fas fa-blind fa-3x"></i>
+    <i class="fas fa-birthday-cake fa-3x"></i>
+    <i class="fas fa-binoculars fa-3x"></i>
+    <i class="fas fa-bicycle fa-3x"></i>
+    <i class="fas fa-biking fa-3x"></i>
+    <i class="fas fa-book-open fa-3x"></i>
+    <i class="fas fa-book-reader fa-3x"></i>
+    <i class="fas fa-bookmark fa-3x"></i>
+    <i class="fas fa-bootstrap fa-3x"></i>
+    <i class="fas fa-border-all fa-3x"></i>
+    <i class="fas fa-bowling-ball fa-3x"></i>
+    <i class="fas fa-box fa-3x"></i>
+    <i class="fas fa-box-open fa-3x"></i>
+    <i class="fas fa-boxes fa-3x"></i>
+    <i class="fas fa-brain fa-3x"></i>
+    <i class="fas fa-briefcase fa-3x"></i>
+    <i class="fas fa-briefcase-medical fa-3x"></i>
+    <i class="fas fa-building fa-3x"></i>
+    <i class="faboutas fa-broadcast-tower fa-3x"></i>
+    <i class="fas fa-buffer fa-3x"></i>
+    <i class="fas fa-bullseye fa-3x"></i>
+    <i class="fas fa- fa-3x"></i>
+    <i class="fas fa-broadcast-tower fa-3x"></i>
+    <i class="fas fa-broadcast-tower fa-3x"></i>
+    <i class="fas fa-broadcast-tower fa-3x"></i>
+    <i class="fas fa-broadcast-tower fa-3x"></i>
+    <i class="fas fa-broadcast-tower fa-3x"></i>
+    <i class="fas fa-broadcast-tower fa-3x"></i>
+    <i class="fas fa-broadcast-tower fa-3x"></i>
+    <i class="fas fa-broadcast-tower fa-3x"></i>
+    <i class="fas fa-broadcast-tower fa-3x"></i>
+    <i class="fas fa-broadcast-tower fa-3x"></i>
+    <i class="fas fa-broadcast-tower fa-3x"></i>
+    <i class="fas fa-broadcast-tower fa-3x"></i> */
+
+    /* <!-- template of font awesome -->
+<!-- <!doctype html>
+<html>
+  <head>
+    Place your kit's code here -->
+    <!-- <script src="https://kit.fontawesome.com/3fdd578109.js" crossorigin="anonymous"></script>
+  </head> -->
+<!--
+  <body> -->
+    <!-- Ready to use Font Awesome. Activate interlock. Dynotherms - connected. Infracells - up. Icons are go! -->
+  <!-- </body>
+</html> -->
+<!-- end --> */
+
+/* media queries */
+
+/* @media screen and (min-width: 576px) {
+  body {
+    background: #442727;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    background: #ffbcbc;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  body {
+    background: #263f44;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  body {
+    background: #550a46;
+  }
+} */
+
+/* 1rem=16px */
+/*  end of Important */

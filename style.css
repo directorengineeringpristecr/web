@@ -224,6 +224,23 @@ footer h5 {
   color: #f1fffa;
 }
 
+/* footer */
+.footer {
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+}
+.footer-title {
+  border: 0.2rem solid var(--goldenrod);
+  padding: 0.4rem;
+}
+.footer-icon {
+  color: var(--goldenrod);
+}
+.footer-icon:hover {
+  color: var(--white);
+}
+
+
 
 /* Important */
 

@@ -141,7 +141,7 @@ body {
 .item-2,
 .item-3,
 .item-4 {
-  min-height: 50vh;
+  min-height: 80vh;
   /* clip-path: polygon(0 0, 100% 0, 100% 85%, 0 95%); */
 }
 .no-padding {
